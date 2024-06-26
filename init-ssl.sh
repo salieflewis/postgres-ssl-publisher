@@ -24,4 +24,7 @@ ssl = on
 ssl_cert_file = '$SSL_DIR/server.crt'
 ssl_key_file = '$SSL_DIR/server.key'
 ssl_ca_file = '$SSL_DIR/root.crt'
+wal_level = logical
+max_replication_slots = 2
+max_wal_senders = 2
 EOF
